@@ -159,7 +159,7 @@
         "Description": "Returns all the values of an array"
       }
     ],
-    "Functions": [
+    "Gloabal Functions": [
       {
         "Function": "abs",
         "Description": "Returns the absolute value of a number"
