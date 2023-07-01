@@ -1,0 +1,328 @@
+{
+  "String Functions": [
+    {
+      "Function": "strlen",
+      "Description": "Returns the length of a string"
+    },
+    {
+      "Function": "str_replace",
+      "Description": "Replaces all occurrences of a search string with a replacement string"
+    },
+    {
+      "Function": "strtolower",
+      "Description": "Converts a string to lowercase"
+    },
+    {
+      "Function": "strtoupper",
+      "Description": "Converts a string to uppercase"
+    },
+    {
+      "Function": "substr",
+      "Description": "Returns a part of a string"
+    },
+    {
+      "Function": "strpos",
+      "Description": "Finds the position of the first occurrence of a substring in a string"
+    },
+    {
+      "Function": "trim",
+      "Description": "Removes whitespace or other characters from the beginning and end of a string"
+    },
+    {
+      "Function": "str_split",
+      "Description": "Converts a string into an array of characters"
+    },
+    {
+      "Function": "implode",
+      "Description": "Joins array elements into a string"
+    },
+    {
+      "Function": "explode",
+      "Description": "Splits a string into an array of substrings"
+    }
+  ],
+    "Int Functions": [
+      {
+        "Function": "intval",
+        "Description": "Returns the integer value of a variable"
+      },
+      {
+        "Function": "abs",
+        "Description": "Returns the absolute value of a number"
+      },
+      {
+        "Function": "ceil",
+        "Description": "Rounds a number up to the nearest integer"
+      },
+      {
+        "Function": "floor",
+        "Description": "Rounds a number down to the nearest integer"
+      },
+      {
+        "Function": "max",
+        "Description": "Returns the highest value in a list of numbers"
+      },
+      {
+        "Function": "min",
+        "Description": "Returns the lowest value in a list of numbers"
+      },
+      {
+        "Function": "rand",
+        "Description": "Generates a random number"
+      },
+      {
+        "Function": "sqrt",
+        "Description": "Returns the square root of a number"
+      },
+      {
+        "Function": "pow",
+        "Description": "Returns the value of a number raised to the power of another number"
+      },
+      {
+        "Function": "round",
+        "Description": "Rounds a number to the nearest integer"
+      }
+    ],
+    "Bool Functions": [
+      {
+        "Function": "boolval",
+        "Description": "Returns the boolean value of a variable"
+      },
+      {
+        "Function": "is_bool",
+        "Description": "Checks if a variable is of type boolean"
+      },
+      {
+        "Function": "var_export",
+        "Description": "Outputs or returns a string representation of a variable, including boolean values"
+      },
+      {
+        "Function": "filter_var",
+        "Description": "Filters a variable with a specified filter, including boolean validation"
+      },
+      {
+        "Function": "json_encode",
+        "Description": "Returns the JSON representation of a value, including boolean values"
+      },
+      {
+        "Function": "json_decode",
+        "Description": "Decodes a JSON string, converting boolean values to PHP booleans"
+      },
+      {
+        "Function": "boolToString",
+        "Description": "Custom function to convert a boolean value to a string representation"
+      },
+      {
+        "Function": "stringToBool",
+        "Description": "Custom function to convert a string representation to a boolean value"
+      }
+    ],
+    "Array Functions": [
+      {
+        "Function": "count",
+        "Description": "Returns the number of elements in an array"
+      },
+      {
+        "Function": "array_push",
+        "Description": "Pushes one or more elements onto the end of an array"
+      },
+      {
+        "Function": "array_pop",
+        "Description": "Removes and returns the last element of an array"
+      },
+      {
+        "Function": "array_shift",
+        "Description": "Removes and returns the first element of an array"
+      },
+      {
+        "Function": "array_unshift",
+        "Description": "Adds one or more elements to the beginning of an array"
+      },
+      {
+        "Function": "array_merge",
+        "Description": "Merges two or more arrays into a single array"
+      },
+      {
+        "Function": "array_slice",
+        "Description": "Extracts a slice of an array"
+      },
+      {
+        "Function": "array_search",
+        "Description": "Searches an array for a given value and returns the corresponding key if successful"
+      },
+      {
+        "Function": "array_keys",
+        "Description": "Returns all the keys of an array"
+      },
+      {
+        "Function": "array_values",
+        "Description": "Returns all the values of an array"
+      }
+    ],
+    "Functions": [
+      {
+        "Function": "abs",
+        "Description": "Returns the absolute value of a number"
+      },
+      {
+        "Function": "array",
+        "Description": "Create an array"
+      },
+      {
+        "Function": "array_chunk",
+        "Description": "Split an array into chunks"
+      },
+      {
+        "Function": "array_combine",
+        "Description": "Creates an array by using one array for keys and another for its values"
+      },
+      {
+        "Function": "array_count_values",
+        "Description": "Counts the values in an array"
+      },
+      {
+        "Function": "array_diff",
+        "Description": "Computes the difference between arrays"
+      },
+      {
+        "Function": "array_filter",
+        "Description": "Filters elements of an array using a callback function"
+      },
+      {
+        "Function": "array_flip",
+        "Description": "Exchanges all keys with their associated values in an array"
+      },
+      {
+        "Function": "array_key_exists",
+        "Description": "Checks if the given key or index exists in the array"
+      },
+      {
+        "Function": "array_keys",
+        "Description": "Returns all the keys or a subset of the keys of an array"
+      },
+      {
+        "Function": "array_map",
+        "Description": "Applies a callback function to each element of an array"
+      },
+      {
+        "Function": "array_merge",
+        "Description": "Merges one or more arrays into a single array"
+      },
+      {
+        "Function": "array_pop",
+        "Description": "Removes and returns the last element of an array"
+      },
+      {
+        "Function": "array_push",
+        "Description": "Pushes one or more elements onto the end of an array"
+      },
+      {
+        "Function": "array_rand",
+        "Description": "Picks one or more random keys out of an array"
+      },
+      {
+        "Function": "array_reverse",
+        "Description": "Returns an array with elements in reverse order"
+      },
+      {
+        "Function": "array_search",
+        "Description": "Searches an array for a given value and returns the corresponding key if successful"
+      },
+      {
+        "Function": "array_shift",
+        "Description": "Removes and returns the first element of an array"
+      },
+      {
+        "Function": "array_slice",
+        "Description": "Extracts a slice of an array"
+      },
+      {
+        "Function": "array_sum",
+        "Description": "Calculates the sum of values in an array"
+      },
+      {
+        "Function": "array_unique",
+        "Description": "Removes duplicate values from an array"
+      },
+      {
+        "Function": "array_unshift",
+        "Description": "Adds one or more elements to the beginning of an array"
+      },
+      {
+        "Function": "array_values",
+        "Description": "Returns all the values of an array"
+      },
+      {
+        "Function": "array_walk",
+        "Description": "Applies a user-defined function to each element of an array"
+      },
+      {
+        "Function": "array_walk_recursive",
+        "Description": "Applies a user-defined function recursively to each element of an array"
+      },
+      {
+        "Function": "base64_decode",
+        "Description": "Decodes a base64 encoded string"
+      },
+      {
+        "Function": "base64_encode",
+        "Description": "Encodes a string to base64"
+      },
+      {
+        "Function": "ceil",
+        "Description": "Rounds a number up to the nearest integer"
+      },
+      {
+        "Function": "chr",
+        "Description": "Returns a string containing a specific character"
+      },
+      {
+        "Function": "count",
+        "Description": "Returns the number of elements in an array"
+      },
+      {
+        "Function": "date",
+        "Description": "Returns the current date and time"
+      },
+      {
+        "Function": "defined",
+        "Description": "Checks if a constant exists"
+      },
+      {
+        "Function": "echo",
+        "Description": "Outputs one or more strings"
+      },
+      {
+        "Function": "explode",
+        "Description": "Splits a string by a specified delimiter and returns an array of substrings"
+      },
+      {
+        "Function": "file_get_contents",
+        "Description": "Reads the entire contents of a file into a string"
+      },
+      {
+        "Function": "file_put_contents",
+        "Description": "Writes a string to a file"
+      },
+      {
+        "Function": "filter_var",
+        "Description": "Filters a variable with a specified filter"
+      },
+      {
+        "Function": "htmlspecialchars",
+        "Description": "Converts special characters to HTML entities"
+      },
+      {
+        "Function": "implode",
+        "Description": "Joins array elements into a string"
+      },
+      {
+        "Function": "in_array",
+        "Description": "Checks if a value exists in an array"
+      },
+      {
+        "Function": "is_array",
+        "Description": "Checks if a variable is an array"
+      }
+    ]
+}
